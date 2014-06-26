@@ -1,14 +1,14 @@
 XmlExtractor
 ============
 This class provide a convenient way to extract information from XML files.  
-usage: java XmlExtractor input_file output_file configFile(config.txt as default).
-The config.txt should be like:
-	unit name
-	attribute name0
-	attribute name1
+usage: java XmlExtractor input_file output_file configFile(config.txt as default).  
+The config.txt should be like:  
+ 	unit name  
+	attribute name0  
+	attribute name1  
  
 You can add (index) after the attribute to specify the index of useful attribute if there exist multiple
-attribute of the same name. If not specify the index, all available attributes will be extracted. For example,
+attribute of the same name. If not specify the index, all available attributes will be extracted. For example,  
 	record
 	datastamp
 	setSpec
@@ -36,6 +36,6 @@ It means that the unit name is record, and useful attribute are datastamp, setSp
 </root>
   
  will generate the following content('\t' as delimiter):
- 	2012-01-01	cs;math		Hello World
+ 	2012-01-01 	cs;math		Hello World
  	2012-01-02	painting	sunny		
 
