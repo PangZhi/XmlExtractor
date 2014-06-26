@@ -1,6 +1,6 @@
 XmlExtractor
 ============
-This class provide a convenient way to extract information from XML files.
+This class provide a convenient way to extract information from XML files.  
 usage: java XmlExtractor input_file output_file configFile(config.txt as default).
 The config.txt should be like:
 	unit name
